@@ -3,10 +3,11 @@ import random
 import allure
 import pytest
 
-from src.models.user_model import UserModel
+
 from src.assertions.data_assertion import equals_to
 from src.assertions.type_assertion import is_integer
 from src.services.user_service import UserApiService
+from src.models.user_model import UserModel
 
 
 @pytest.fixture(scope='function')
