@@ -13,4 +13,9 @@
 ## Steps:
 1. Clone the repository;
 2. Use `pip install -r .\requiremants.txt` command;
-3. To run all tests please execute `pytest --alluredir=allure-result`, `allure serve allure-result`
+3. Open in browse [Swagger Petstore](http://petstore.swagger.io )
+4. Click on the "Authorize" button 
+5. Enter any value in the Value field in the api_key (apiKey) block (e.g. 123456)
+6. Click the "Authorize" button
+7. And when sending requests, add the created api key to the header: api_key: 123456
+8. To run all tests please execute `pytest --alluredir=allure-result`, `allure serve allure-result`
