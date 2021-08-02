@@ -1,4 +1,4 @@
-# [Swagger Petstore] (https://petstore.swagger.io/v2) API_testing 
+# [Swagger Petstore](https://petstore.swagger.io/v2) API_testing 
 
 ## Prequisities
 1. Python3 is installed and added to the PATH;
